@@ -35,7 +35,7 @@ params = {
   'creative': '<adCreativeSpec>',
   'ad_format': '<adFormat>',
 }
-print AdAccount(id).get_generate_previews(
+print(AdAccount(id).get_generate_previews(
   fields=fields,
   params=params,
-)
+))

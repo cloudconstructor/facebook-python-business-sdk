@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print CustomAudience(id).delete(
+print(CustomAudience(id).delete(
   fields=fields,
   params=params,
-)
+))

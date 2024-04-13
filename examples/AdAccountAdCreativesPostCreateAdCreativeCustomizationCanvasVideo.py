@@ -35,7 +35,7 @@ params = {
   'object_story_spec': {'page_id':'<pageID>','video_data':{'video_id':'<videoID>','image_url':'<imageURL>','title':'English Creative title','message':'English Creative message','call_to_action':{'type':'LEARN_MORE','value':{'link':'<canvasURI>'}},'retailer_item_ids':[0,0,0,0],'customization_rules_spec':[{'customization_spec':{'language':'en_XX'}},{'customization_spec':{'language':'fr_XX'},'video_id':'<videoIDFR>','picture':'<imageURLFR>','link':'<canvasURIFR>','name':'French Creative title','message':'French Creative message'}]}},
   'product_set_id': '<productSetID>',
 }
-print AdAccount(id).create_ad_creative(
+print(AdAccount(id).create_ad_creative(
   fields=fields,
   params=params,
-)
+))

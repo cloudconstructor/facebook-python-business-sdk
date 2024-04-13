@@ -36,7 +36,7 @@ params = {
   'bid_amount': '200',
   'targeting': {'geo_locations':{'countries':['US']},'facebook_positions':['feed']},
 }
-print AdSet(id).update(
+print(AdSet(id).update(
   fields=fields,
   params=params,
-)
+))

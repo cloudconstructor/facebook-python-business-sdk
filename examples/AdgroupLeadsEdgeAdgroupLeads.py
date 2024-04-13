@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print Ad(id).get_leads(
+print(Ad(id).get_leads(
   fields=fields,
   params=params,
-)
+))

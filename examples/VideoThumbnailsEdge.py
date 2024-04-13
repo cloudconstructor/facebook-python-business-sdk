@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print AdVideo(id).get_thumbnails(
+print(AdVideo(id).get_thumbnails(
   fields=fields,
   params=params,
-)
+))

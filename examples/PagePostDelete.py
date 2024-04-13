@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print PagePost(id).delete(
+print(PagePost(id).delete(
   fields=fields,
   params=params,
-)
+))

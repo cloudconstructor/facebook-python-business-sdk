@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print AdAccount(id).get(
+print(AdAccount(id).get(
   fields=fields,
   params=params,
-)
+))

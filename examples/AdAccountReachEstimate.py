@@ -34,7 +34,7 @@ fields = [
 params = {
   'targeting_spec': {'geo_locations':{'countries':['US']},'age_min':20,'age_max':40},
 }
-print AdAccount(id).get_reach_estimate(
+print(AdAccount(id).get_reach_estimate(
   fields=fields,
   params=params,
-)
+))

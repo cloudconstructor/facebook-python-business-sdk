@@ -33,7 +33,7 @@ fields = [
 params = {
   'subscribed_fields': 'leadgen',
 }
-print Page(id).create_subscribed_app(
+print(Page(id).create_subscribed_app(
   fields=fields,
   params=params,
-)
+))

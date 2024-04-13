@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print Page(id).get_roles(
+print(Page(id).get_roles(
   fields=fields,
   params=params,
-)
+))

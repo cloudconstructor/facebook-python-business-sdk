@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print Page(id).get_feed(
+print(Page(id).get_feed(
   fields=fields,
   params=params,
-)
+))

@@ -33,7 +33,7 @@ fields = [
 ]
 params = {
 }
-print AdsPixel(id).get_shared_agencies(
+print(AdsPixel(id).get_shared_agencies(
   fields=fields,
   params=params,
-)
+))

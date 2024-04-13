@@ -35,7 +35,7 @@ params = {
   'ad_format': 'DESKTOP_FEED_STANDARD',
   'product_item_ids': ['<productItemID>'],
 }
-print AdCreative(id).get_previews(
+print(AdCreative(id).get_previews(
   fields=fields,
   params=params,
-)
+))

@@ -32,7 +32,7 @@ fields = [
 ]
 params = {
 }
-print ProductCatalog(id).update(
+print(ProductCatalog(id).update(
   fields=fields,
   params=params,
-)
+))

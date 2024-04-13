@@ -32,7 +32,7 @@ fields = [
 ]
 params = {
 }
-print CustomAudience(id).get(
+print(CustomAudience(id).get(
   fields=fields,
   params=params,
-)
+))

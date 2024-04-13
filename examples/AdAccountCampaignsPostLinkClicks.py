@@ -37,7 +37,7 @@ params = {
   'status': 'PAUSED',
   'special_ad_categories': [],
 }
-print AdAccount(id).create_campaign(
+print(AdAccount(id).create_campaign(
   fields=fields,
   params=params,
-)
+))

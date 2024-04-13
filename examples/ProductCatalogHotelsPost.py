@@ -43,7 +43,7 @@ params = {
   'star_rating': '4',
   'phone': '+351234123456',
 }
-print ProductCatalog(id).create_hotel(
+print(ProductCatalog(id).create_hotel(
   fields=fields,
   params=params,
-)
+))

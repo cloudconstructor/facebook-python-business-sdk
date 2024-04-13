@@ -38,7 +38,7 @@ params = {
   'tracking_specs': {'action.type':'post_engagement','post':'<postID>','page':'<pageID>'},
   'status': 'PAUSED',
 }
-print AdAccount(id).create_ad(
+print(AdAccount(id).create_ad(
   fields=fields,
   params=params,
-)
+))

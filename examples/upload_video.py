@@ -22,7 +22,7 @@
 Upload a video to adaccount
 """
 
-
+import json
 import sys
 import os
 

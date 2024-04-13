@@ -38,7 +38,7 @@ params = {
   'redownload': '1',
   'status': 'PAUSED',
 }
-print AdAccount(id).create_ad(
+print(AdAccount(id).create_ad(
   fields=fields,
   params=params,
-)
+))

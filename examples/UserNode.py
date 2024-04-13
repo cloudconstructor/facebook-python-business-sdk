@@ -32,7 +32,7 @@ fields = [
 ]
 params = {
 }
-print User(id).get(
+print(User(id).get(
   fields=fields,
   params=params,
-)
+))

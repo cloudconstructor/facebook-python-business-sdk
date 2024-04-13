@@ -32,7 +32,7 @@ fields = [
 ]
 params = {
 }
-print PagePost(id).get(
+print(PagePost(id).get(
   fields=fields,
   params=params,
-)
+))

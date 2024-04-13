@@ -41,7 +41,7 @@ params = {
   'targeting': {'geo_locations':{'countries':['US']},'publisher_platforms':['facebook'],'facebook_positions':['feed']},
   'promoted_object': {'page_id':'<pageID>'},
 }
-print AdAccount(id).create_ad_set(
+print(AdAccount(id).create_ad_set(
   fields=fields,
   params=params,
-)
+))

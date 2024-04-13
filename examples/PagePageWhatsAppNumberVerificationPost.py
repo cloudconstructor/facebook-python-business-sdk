@@ -34,7 +34,7 @@ params = {
   'whatsapp_number': '123456789',
   'verification_code': '12345',
 }
-print Page(id).create_page_whatsapp_number_verification(
+print(Page(id).create_page_whatsapp_number_verification(
   fields=fields,
   params=params,
-)
+))
